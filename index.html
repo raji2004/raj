@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>stop watch</title>
+        <style>
+            body{
+                background-color: gold;
+                
+            }
+            .container{
+                margin: auto;
+                position: relative;
+                top: 300px;
+                height: 500px;
+                text-align: center;
+                align-content: center;
+                justify-content:center ;
+                
+            }
+            .h1{
+               
+                color: white;
+                font-size: 100px;
+            }
+            button{
+               width: 200px;
+               height: 50px;
+               border: 1px solid white;
+               margin-left: 20px;
+               background-color: white;
+               color: rgb(255, 254, 249);
+               background: gold;
+            }
+            button:hover{
+                background: rgb(207, 177, 7);
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="h1">STOP WATCH</h1>
+            <p class="h1" style="font-size:50px ;"><span id="minutes">00</span>:<span id="seconds">00</span>:<span id="mini">00</span></p>
+             <button id="start">start</button> 
+             <button id="stop">stop</button>
+             <button id="reset">reset</button>
+        </div>
+        <script src="stop.js"></script>
+    </body>
+</html>
